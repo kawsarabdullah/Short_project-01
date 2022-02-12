@@ -1,0 +1,15 @@
+div > p{
+	color: blue;
+}
+div > div > p{
+	color: green;
+}
+div > div > span > p{
+	color: tomato;
+}
+a:hover{
+	color: #876;
+}
+a:active{
+	color: #987;
+}
