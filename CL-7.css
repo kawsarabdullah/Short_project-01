@@ -1,0 +1,22 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.parent{
+	background: Aquamarine;
+	margin: 20px;
+}
+table{
+	border-collapse: collapse;
+	width: 700px;
+	text-align: center;
+}
+tr{
+	border-bottom: 2px solid
+}
+td,th{
+	padding: 20px #000;
+}
+tr:nth-child(even) {
+	background-color: LightGray;
+}
