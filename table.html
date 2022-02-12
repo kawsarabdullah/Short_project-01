@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Class for table</title>
+	<style type="text/css">
+		table{
+			border-collapse: collapse;
+		}
+	</style>
+</head>
+<body>
+
+	<table border="1" cellpadding="8">
+		<captionh>This is caption</caption>
+		<thead>
+		<tr>
+			<td>Name</td>
+			<td>ID</td>
+			<td>Section</td>
+		</tr>
+		</thead>
+
+		<tfoot>
+			<tr>
+				<td colspan="2">Total Student</td>
+				
+				<td>T Sec</td>
+			</tr>
+		</tfoot>
+		
+		<tr>
+			<td>Karim</td>
+			<td>11343</td>
+			<td rowspan="3">A</td>
+		</tr>
+
+		<tr>
+			<td>rahim</td>
+			<td>11344</td>
+			
+		</tr>
+
+		<tr>
+			<td>Farid</td>
+			<td>11234</td>
+		</tr>
+
+	</table>
+
+	<br><br><br><br>
+
+	<form method="POST">
+		<label>Name:</label>
+		<input type="text" name="kaka" placeholder="Name" required=""> <br><br>
+
+		<label>Email:</label>
+		<input type="email" name="kaki" value="abc@gmail.com" > <br><br>
+
+		<label>Phone:</label>
+		<input type="number" name="" max="12" min="6" placeholder="number" > <br><br>
+
+		<label>Password:</label>
+		<input type="Password" name="" placeholder="Password"> <br><br>
+
+		<label>Color:</label>
+		<input type="Color" name=""> <br><br>
+
+		<label>File:</label>
+		<input type="File" name=""> <br><br>
+
+		<label>Gender:</label>
+		<input type="radio" name="Gender"> Male 
+		<input type="radio" name="Gender"> Famale <br><br>
+
+		<label>Branch:</label>
+		<input type="Checkbox" name=""> Dhaka
+		<input type="Checkbox" name=""> Barishal
+		<input type="Checkbox" name=""> Chattagram
+		<input type="Checkbox" name=""> Khulna
+		<input type="Checkbox" name=""> Rangpur 
+		<br><br>
+
+		<label>City</label>
+      	<select>
+			<option>Mirpur</option>
+			<option>Uttara</option>
+			<option>Savar</option>
+			<option>Dhanmondi</option>
+		</select>
+
+
+		<br><br><br>
+
+		<input type="Submit" name="">
+		<input type="Reset" name=""> 
+
+
+	</form>
+
+</body>
+</html>

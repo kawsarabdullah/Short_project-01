@@ -1,0 +1,25 @@
+*{
+	background-color: #c6daf7;
+
+}
+h2{
+    color: #332133;
+    background-color: #fce3a3;
+}
+table{
+	border-collapse: 2px;
+}
+.forms{
+	background-color: #e9f4cd;
+	color: #0d1e7d;
+ }
+
+input[type="text"]{
+	color: green;
+} 
+input[type="password"]{
+	color: blue;
+}
+input{
+	color: #eee:;
+}
